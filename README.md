@@ -13,6 +13,7 @@ How to learn about how to run this code so that everyone can generate a fixed-fa
 # Brief Explanation
 <img src="Photo.jpg" alt="Structure">
 There are several steps that this model follows to generate pictures:
+
 - 1.We separate the face from the image and extract the face features using faceencoder, then we use imageencoder to extract the features of the whole image.
 - 2.We use action feature recognition to extract the pose of the person in the image and feed it into a control-net for training, the purpose of this is to reduce the blurriness of face generation by introducing new features.
 - 3.During the training process we first perform a dimensionality reduction of the features in order to reduce the number of unnecessary features and limit the number of features learned by the model to ensure that it learns the most useful ones. Then we uplift the features in order to avoid the model ignoring important features.
