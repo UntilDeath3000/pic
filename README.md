@@ -1,6 +1,10 @@
 # Acknowledgement
 Hi, all. This is the code for Jiaolun Zhou's project FaceCDM guided by Prof. Luyao Zhang and Prof. Dongmian Zou.
 
+# Application
+This is the link to our application, where you can find how to use and apply our application.
+https://wx.mail.qq.com/ftn/download?func=3&key=9e9c5638d3ac4651adef1c3833393634ef152f3331393634494c5f5e1e0c5505075750590014050457561f0c055850195954575c1c5a0f5202070b0d000f0056586b32090308031a1b0a422c0ac6b672cec17d5a5a8df88632a22aca5923c7646363323831393634&code=ac281964
+
 # Introduction
 The rise of diffusion models has sparked significant interest in controllable text-to-image generation. Current methods often rely on fixed face IDs, which can lead to semantic inaccuracies and high computational costs. To tackle these challenges, we present FaceCDM, a novel framework that uses face detection and feature extraction to integrate face attributes directly into diffusion models during training. FaceCDM introduces a triplet cross-attention mechanism that effectively learns the interplay between text, images, and face IDs. This mechanism is part of a pre-training network, and we employ a three-stage training strategy to refine the integration of text and face ID features, from broad strokes to fine details. Extensive testing shows that FaceCDM excels at generating images that accurately match the given prompts and face ID specifications. In the future, this technology should find its way into online virtual fitting rooms, meta-universes and the like.
 
